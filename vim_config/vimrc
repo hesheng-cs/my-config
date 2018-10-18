@@ -175,9 +175,9 @@ set cursorline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Favorite filetypes
 if MySys()=="linux"
-	set ffs=unix,dos,mac
-elseif	MySys()=="windows"
-	set ffs=dos,unix,mac
+    set ffs=unix,dos,mac
+elseif  MySys()=="windows"
+    set ffs=dos,unix,mac
 endif
  
 nmap <leader>fd :se ff=dos<cr>
@@ -431,8 +431,11 @@ vmap <silent> <leader>zo zO
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Text options
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"set expandtab
-"set shiftwidth=4
+set expandtab
+set softtabstop=4
+set tabstop=4
+set shiftwidth=4
+%retab!
  
 map <leader>t2 :set shiftwidth=2<cr>
 map <leader>t4 :set shiftwidth=4<cr>
