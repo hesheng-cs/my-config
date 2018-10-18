@@ -1,0 +1,17 @@
+[user]
+	email = hesheng05@gmail.com
+	name = He Sheng
+[core]
+	editor = vim
+[push]
+	default = simple
+[alias]
+    co = checkout
+    st = status
+    ci = commit
+    br = branch
+[color]
+    status = auto
+    diff = auto
+    branch = auto
+    interactive = auto
